@@ -6,7 +6,7 @@ This data analysis project aims to provide insights into the layoffs from around
 
 ### Data Sources
 
-The primary dataset used for this analysis is "world_layoffs.csv" file from Kaggle, containing information about world layoffs of world top companies
+The primary dataset used for this analysis is "layoffs.csv" [download here](https://github.com/AinuraData/World_Layoffs/blob/main/layoffs.csv) file from Kaggle, containing information about world layoffs of world top companies
 
 ### Tools
 
