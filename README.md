@@ -1,5 +1,15 @@
 # World Layoffs Analysis
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning/Preparation](#data-cleaningpreparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results/Findings](#resultsfindings)
+
 ### Project Overview
 
 This data analysis project aims to provide insights into the layoffs from around the world from 2020 to 2023. The cleaning data process allows us to perform exploratory data analysis to identify trends and patterns and gain a deeper understanding of the world layoff picture. 
@@ -25,7 +35,7 @@ In the initial data preparation phase, the following tasks were performed:
    - Using CTE 
 
   
-3. Data cleaning and formating
+3. Data cleaning and formatting
 
 - Remove Duplicates
   - Using CREATE TABLE
@@ -42,7 +52,7 @@ In the initial data preparation phase, the following tasks were performed:
     - Using WHERE clause and COMPARISON OPERATOR
   - Populate Columns
     - Using JOIN Clause
-5. Remove unnessurary Columns
+5. Remove unnecessary Columns
 
   - Delete columns
     - Using ALTER TABLE statement
@@ -52,10 +62,10 @@ In the initial data preparation phase, the following tasks were performed:
 
 ### Exploratory Data Analysis
 
-EDA involved exploring the data to answer key question,such as:
+EDA involved exploring the data to answer key questions, such as:
 
-- What...?
-- 
+- How many people did the company let off by the year?
+- What are the top 5 companies per year with the highest percentage of layoffs?
 
 ### Data Analysis
 
@@ -75,4 +85,13 @@ FROM duplicate_cte
 WHERE row_num > 1;
 ```
 
+### Results/Findings
 
+The analysis results are summarized as follows:
+1. The maximum number of total layoffs reached in 2023
+2. The top 5 companies in each year are the tech companies
+3. The top country with the highest layoff is United States
+
+
+
+   
